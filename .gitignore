@@ -23,8 +23,8 @@ wheels/
 .installed.cfg
 *.egg
 
-# Streamlit
-.streamlit/
+# Streamlit - 但保留配置文件
+# .streamlit/
 
 # 临时文件
 *.tmp
