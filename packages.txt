@@ -1,0 +1,8 @@
+# Streamlit Cloud packages.txt (alternative to requirements.txt)
+# This file is used by Streamlit Cloud as an alternative dependency file
+
+streamlit
+pandas
+openpyxl
+Pillow
+
