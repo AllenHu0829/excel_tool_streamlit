@@ -1,3 +1,0 @@
-# packages.txt is for system-level apt packages only
-# Python packages should be in requirements.txt
-
