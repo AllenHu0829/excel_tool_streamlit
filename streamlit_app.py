@@ -3,6 +3,15 @@ Excel文件拆分与合并工具 - Streamlit版本
 """
 
 import streamlit as st
+
+# 页面配置 - 必须是第一个Streamlit调用
+st.set_page_config(
+    page_title="Excel工具",
+    page_icon="📊",
+    layout="wide",
+    initial_sidebar_state="collapsed"
+)
+
 import pandas as pd
 import os
 import tempfile
@@ -174,14 +183,6 @@ def merge_excel_files(excel_files):
         st.error(f"处理过程中出错: {str(e)}")
         raise
 
-
-# 页面配置
-st.set_page_config(
-    page_title="Excel工具",
-    page_icon="📊",
-    layout="wide",
-    initial_sidebar_state="collapsed"
-)
 
 # 自定义CSS样式（iOS风格）
 st.markdown("""
